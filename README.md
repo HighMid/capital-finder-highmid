@@ -37,3 +37,12 @@ N/A
 Describe any tests that you did not complete, skipped, etc
 
 N/A
+
+
+////////////////////////////////////////////////////////////////////////////////////////
+
+## Change Log
+
+### 30 Jan 2024
+
+- Fixed response for both country and capital, now expected str and not two arguments.
