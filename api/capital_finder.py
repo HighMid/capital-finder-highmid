@@ -25,7 +25,7 @@ class handler(BaseHTTPRequestHandler):
                 
             elif capital:
                 capital_name = capital[0]
-                response = requests.get(f"https://restcountries.com/v3.1/name/{capital_name}")
+                response = requests.get(f"https://restcountries.com/v3.1/capital/{capital_name}")
                 data = response.json()
                 country_name = data[0]['name']['common']
                 message = f'{capital_name} is indeed the capital of {country_name}'
@@ -33,9 +33,6 @@ class handler(BaseHTTPRequestHandler):
             else:
                 print("No you're wrong")
                 
-        except ValueError:
-            pass
-        
         except requests.RequestException as e:
             self.send_error(500, f"Server Error: {e}")
             return
