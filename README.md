@@ -7,11 +7,15 @@ Project: capital-finder
 Author: DeAndre Ordonez
 
 Links and Resources - [Vercel](https://vercel.com/docs/getting-started-with-vercel)
+
 Setup - N/A
+
 PORT - N/A
+
 DATABASE_URL - N/A
-How to initialize/run your application
-- 
+
+How to initialize/run your application - N/A
+
 How to use your library
 - pip install -r requirements.txt
 
