@@ -26,6 +26,10 @@ https://serverless-two-amber-18.vercel.app/api/capital_finder?country=canada
 
 Expected result = The capital of canada is Ottawa
 
+https://serverless-two-amber-18.vercel.app/api/capital_finder?capital=ottawa
+
+Expected result = ottawa is indeed the capital of Canada
+
 Tested
 
 N/A
